@@ -3,6 +3,7 @@ import React from 'react'
 import { WrapperHeader, WrapperHeaderAccount, WrapperTextHeader, WrapperTextHeaderSmall } from './style'
 import { Input, Space } from 'antd';
 import { UserOutlined, CaretDownOutlined, ShoppingCartOutlined } from '@ant-design/icons';
+import ButtonInputSearch from '../ButtonInputSearch/ButtonInputSearch';
 const { Search } = Input;
 const HeaderComponent = () => {
     return (
@@ -10,17 +11,18 @@ const HeaderComponent = () => {
             <WrapperHeader gutter={16}>
                 <Col span={6}>
                     <WrapperTextHeader>
-                        Shop Epu
+                        EPU's Shop
                     </WrapperTextHeader>
                 </Col>
                 <Col span={12}>
-                    <Search
+                    {/* <ButtonInputSearch /> */}
+                    <ButtonInputSearch
                         placeholder="input search text"
-                        // onSearch={onSearch}
-                        enterButton
+                        size="large"
+                        textButton="Tìm kiếm"
                     />
                 </Col>
-                <Col span={6} style={{ display: 'flex', gap: '20px' }}>
+                <Col span={6} style={{ display: 'flex', gap: '20px', alignItems: 'center' }}>
                     <WrapperHeaderAccount>
                         <UserOutlined style={{ fontSize: '30px' }} />
                         <div>
