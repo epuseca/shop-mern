@@ -8,7 +8,7 @@ const { Search } = Input;
 const HeaderComponent = () => {
     return (
         <div>
-            <WrapperHeader gutter={16}>
+            <WrapperHeader>
                 <Col span={6}>
                     <WrapperTextHeader>
                         EPU's Shop
