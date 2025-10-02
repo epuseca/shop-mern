@@ -6,8 +6,6 @@ import slider1 from '../../assets/images/slide1.webp'
 import slider2 from '../../assets/images/slide2.webp'
 import slider3 from '../../assets/images/slide3.webp'
 import CardComponent from '../../components/CardComponent/CardComponent'
-import NavbarComponent from '../../components/NavbarComponent/NavbarComponent'
-import ButtonComponent from '../../components/ButtonComponent/ButtonComponent'
 
 const HomePage = () => {
   const arr = ['TV', 'Tu lanh', 'Laptop']
