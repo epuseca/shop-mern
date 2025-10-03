@@ -19,5 +19,6 @@ export const WrapperContainerRight = styled.div`
 `
 export const WrapperTextLight = styled.span`
     color: blue;
-    
+    font-size: 13px;
+    cursor: pointer;
 `
